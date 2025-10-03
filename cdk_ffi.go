@@ -1,8 +1,8 @@
 package cdkgo
 
 /*
-#cgo CFLAGS: -I${SRCDIR}
-#cgo LDFLAGS: -L${SRCDIR}/lib -lcdk_ffi
+#cgo CFLAGS: -I./lib
+#cgo LDFLAGS: -L./lib -lcdk_ffi
 #include "cdk_ffi.h"
 */
 import "C"
