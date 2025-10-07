@@ -2,7 +2,7 @@ package cdkgo
 
 /*
 #cgo CFLAGS: -I${SRCDIR}/lib
-#cgo LDFLAGS: -Llib -lcdk_ffi -Wl,-rpath,'$ORIGIN/lib'
+#cgo LDFLAGS: -Llib -lcdk_ffi -Wl,-rpath,${SRCDIR}/build/lib
 
 #include "cdk_ffi.h"
 */
